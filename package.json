@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app",
-    "start-heroku": "concurrently \"npm run http-server\" \"node app\" "
+    "start-heroku": "concurrently \"node app\" "
   },
   "dependencies": {
     "express": "*",
